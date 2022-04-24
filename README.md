@@ -1,5 +1,8 @@
 # tic-tac-toe
 
+Version en [React](https://github.com/matisbag/tic-tac-toe/tree/master) 
+
+
 ## Build Setup
 
 ```bash
