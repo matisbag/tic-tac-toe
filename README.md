@@ -1,6 +1,6 @@
 # tic-tac-toe
 
-Version en [React](https://github.com/matisbag/tic-tac-toe/tree/master) 
+[React](https://github.com/matisbag/tic-tac-toe/tree/master) version.
 
 
 ## Build Setup
