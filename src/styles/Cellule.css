@@ -1,0 +1,7 @@
+td:empty {
+  cursor: pointer;
+}
+
+td.disabled {
+  cursor: initial;
+}

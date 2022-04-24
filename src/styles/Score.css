@@ -1,0 +1,20 @@
+div.score {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+div.score div {
+  display: flex;
+  align-items: center;
+}
+
+div.score div img {
+  width: 40px;
+  margin-right: 8px;
+}
+
+div.score span {
+  margin: 0 16px;
+  font-size: 40px;
+}

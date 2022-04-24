@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pushster', Arial, sans-serif;
+}
+
+body {
+  background-color: #282c34;
+  color: white;
+}

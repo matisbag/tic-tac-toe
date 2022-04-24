@@ -1,0 +1,16 @@
+span.game_info {
+  text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin: 12px 0;
+  font-size: 24px;
+  color: white;
+  height: 20px;
+}
+
+span.game_info .blue {
+  font-weight: 800;
+  color: #60b1fa;
+}
+span.game_info .red {
+  font-weight: 800;
+  color: #fa6060;
+}

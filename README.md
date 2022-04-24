@@ -1,15 +1,18 @@
 # tic-tac-toe
 
+Version en [TS Vanilla](https://github.com/matisbag/tic-tac-toe/tree/vanilla) 
+
+
 ## Build Setup
 
 ```bash
 # install dependencies
 $ npm install
 
-# serve with hot reload at localhost:1234
-$ npm run start
+# serve with hot reload at localhost:3000
+$ npm start
 ```
 
 ## Preview
 
-![preview](/assets/preview.PNG)
+![preview](/public/preview.JPG)

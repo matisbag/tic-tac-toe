@@ -1,9 +1,9 @@
-type Player = 1 | 2;
-type Cell = Player | null;
+export type Player = 1 | 2;
+export type Cell = Player | null;
 type Row = Cell[];
 type Columns = Cell[];
 type Diagonals = Cell[];
-type Board = Row[];
+export type Board = Row[];
 
 const initialBoard: Board = [
   [null, null, null],
@@ -70,4 +70,4 @@ function play(board: Board, x: number, y: number): Board {
 }
 
 
-export { initialBoard, play, Board, getNextPlayer, getWinner };
+export { initialBoard, play, getNextPlayer, getWinner };
