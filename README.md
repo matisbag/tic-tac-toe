@@ -1,6 +1,6 @@
 # tic-tac-toe
 
-Version en [TS Vanilla](https://github.com/matisbag/tic-tac-toe/tree/vanilla) 
+[TS Vanilla](https://github.com/matisbag/tic-tac-toe/tree/vanilla) version.
 
 
 ## Build Setup
