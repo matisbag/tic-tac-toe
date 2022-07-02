@@ -8,13 +8,8 @@ import Score from './Score';
 
 function GameTable() {
   const [myBoard, setMyBoard] = useState<Board>([...initialBoard])
-  const [winner, setWinner] = useState<Player | null>(null)
-  const [nextPlayer, setNextPlayer] = useState<Player | null>(null)
-
-  useEffect(() => {
-    setWinner(getWinner(myBoard))
-    setNextPlayer(getNextPlayer(myBoard))
-  }, [myBoard]) // N’exécute l’effet que si myBoard a été update
+  const winner = getWinner(myBoard)
+  const nextPlayer = getNextPlayer(myBoard)
 
   return (
     <>
