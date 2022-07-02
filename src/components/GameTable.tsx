@@ -1,5 +1,5 @@
 import '../styles/GameTable.css';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Board, initialBoard, play, getWinner, getNextPlayer, Player } from '../utils/tictactoe'
 import Cellule from './Cellule';
 import GameInfo from './GameInfo';
@@ -8,8 +8,8 @@ import Score from './Score';
 
 function GameTable() {
   const [myBoard, setMyBoard] = useState<Board>([...initialBoard])
-  const winner = getWinner(myBoard)
-  const nextPlayer = getNextPlayer(myBoard)
+  const winner: Player | null = getWinner(myBoard)
+  const nextPlayer: Player | null = getNextPlayer(myBoard)
 
   return (
     <>
